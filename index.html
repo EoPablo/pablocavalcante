@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Mitr:wght@500;600&family=Open+Sans:ital@0;1&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <a href="#home" class="logo">Pablo Cavalcante</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Conhecimentos</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Escrever alguma coisa</h3>
+            <h1>Pablo Cavalcante</h1>
+            <h3>Eu sou um <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio vel rem perspiciatis aliquam, quia quaerat!
+            </p>
+            <div class="social-media">
+                <a href="https://github.com/EoPablo" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/pablopinheirocavalcante/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=5511956291507&text&type=phone_number&app_absent=0" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/programming.svg" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/codando.svg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Sobre <span>Mim</span></h2>
+            <h3>Estudante de Frontend</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum cupiditate consequuntur nisi recusandae itaque vitae,
+                suscipit aspernatur minus saepe, magnam pariatur.
+                Sequi, neque eveniet. Quaerat qui distinctio omnis eum earum 
+                recusandae aspernatur nemo velit quo? Ut magnam quidem rem obcaecati.
+            </p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services" id="services">
+        <h2 class="heading">Meus <span>Conhecimentos</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML</h3>
+                <p>HTML é uma linguagem de marcação onde utilizamos para
+                     a criação de páginas na Web.
+                </p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-css3' ></i>
+                <h3>CSS</h3>
+                <p>Utilizamos o CSS para estilizar elementos escritos em uma linguagem de marcação como HTML.
+                </p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-nodejs' ></i>
+                <h3>JavaScript</h3>
+                <p>É uma linguagem de programação, que nos permite para tornar as aplicações Web mais dinâmicas.
+                </p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-bootstrap' ></i>
+                <h3>Bootstrap</h3>
+                <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de
+                    interface.
+                </p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-react' ></i>
+                <h3>React</h3>
+                <p>O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
+                </p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-typescript' ></i>
+                <h3>TypeScript</h3>
+                <p>TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft.
+                </p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Últimos <span>Projetos</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Cartão de Crédito</h4>
+                    <p>Exemplo de Cartão de Crédito feito com HTML / CSS</p>
+                    <a href="projetos/Cartão de Crédito/cartao-credito.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Jogo da Memória</h4>
+                    <p>Jogo da memória feito com HTML / CSS / JS</p>
+                    <a href="projetos/Jogo da Memoria/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Jogo da Velha</h4>
+                    <p>Feito com HTML / CSS / JS</p>
+                    <a href="projetos/Jogo da Velha/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Login Page</h4>
+                    <p>Exemplo de Página de Login Feito com HTML / CSS</p>
+                    <a href="projetos/Login-Page/login-page.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Login Netflix</h4>
+                    <p>Página de login da Netflix feito com HTML / CSS</p>
+                    <a href="projetos/Netflix/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Quiz</h4>
+                    <p>Quiz feito com HTML / CSS / JS</p>
+                    <a href="projetos/Quiz/quiz.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Fale <span>Comigo!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo">
+                <input type="email" placeholder="email@mail.com">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="(11) 99999-9999">
+                <input type="text" placeholder="Email Assunto">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 Desenvolvido por: Pablo Cavalcante</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+    
+    <!-- revelar scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- js principal -->
+    <script src="/js/script.js"></script>
+</body>
+</html>
+
+
+
+
